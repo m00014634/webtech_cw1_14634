@@ -1,0 +1,151 @@
+:root {
+    font-size: 18px;
+    color: #444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px dotted #ccc;
+    padding: 10px;
+}
+
+.navbar a {
+    font-family: 'Sono', sans-serif;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+
+
+/* homepage */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+   
+}
+
+.intro-msg{
+    padding: 100px 0 30px 0;
+    font-size: 2rem;
+    max-width: 60%;
+    
+}
+
+
+.featured {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: #fff
+}
+
+
+/* create page */
+
+.form {
+    max-width: 80%;
+}
+
+
+.input {
+    max-width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    padding: 10px 20px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+
+/* blog list page styles */
+
+.blog-wrapper {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc ;
+    padding: 10px;
+    align-items: center;
+}
+
+.blog {
+    font-size: 1.3rem;
+}
+
+.delete {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-family: inherit;
+}
+
+
+.error {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.success{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.2rem;
+    color: green;
+}
+
+
+.web-info {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 220px;
+}
+
+.web-info p {
+    color: cadetblue;
+}
