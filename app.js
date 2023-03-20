@@ -6,7 +6,7 @@ app.set('view engine', 'pug')
 app.use('/static',express.static('public'))
 app.use(express.urlencoded({ extended: false }))
 
-// localhost:8000
+// run localhost:8000
 app.get('/', (req,res)=> {
     res.render('home')
 })
@@ -42,7 +42,7 @@ app.post('/create',(req,res) => {
             })
         })
     }
-    
+  
 })
 
 
@@ -56,7 +56,6 @@ app.get('/blogs', (req,res) => {
         res.render('blogs', { blogs: blogs })
     })   
 })
-
 
 
 app.get('/blogs/:id', (req,res) => {
@@ -93,16 +92,12 @@ app.get('/delete/:id', (req,res) => {
 })
 
 
-
-
-
 // run server
 app.listen(8000, err => {
     if (err) console.log(err)
 
     console.log('Server is runninf on port 8000...')
 })
-
 
 
 function id () {
