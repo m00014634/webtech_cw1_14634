@@ -53,6 +53,7 @@ a:hover {
     font-size: 2rem;
     max-width: 60%;
     
+    
 }
 
 
@@ -137,15 +138,22 @@ a:hover {
 }
 
 
-.web-info {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px;
-    position: absolute;
-    bottom: 50px;
-    left: 220px;
+.content{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.web-info p {
+.content-items{
+    width: 1000px;
+    border-radius: 20px;
+    font-size: 0.8rem;
     color: cadetblue;
+    padding: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 }
