@@ -32,4 +32,4 @@ node app
 
 
 ### Hosted web application
-[Link to the hosted application](https://jelly-triangular-visor.glitch.me)
+[Link to the hosted application](https://swift-ordinary-asiago.glitch.me)
